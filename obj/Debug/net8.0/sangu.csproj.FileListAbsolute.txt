@@ -1,0 +1,14 @@
+C:\Users\giorg\OneDrive\Desktop\Coding\CS\sangu\bin\Debug\net8.0\sangu.exe
+C:\Users\giorg\OneDrive\Desktop\Coding\CS\sangu\bin\Debug\net8.0\sangu.deps.json
+C:\Users\giorg\OneDrive\Desktop\Coding\CS\sangu\bin\Debug\net8.0\sangu.runtimeconfig.json
+C:\Users\giorg\OneDrive\Desktop\Coding\CS\sangu\bin\Debug\net8.0\sangu.dll
+C:\Users\giorg\OneDrive\Desktop\Coding\CS\sangu\bin\Debug\net8.0\sangu.pdb
+C:\Users\giorg\OneDrive\Desktop\Coding\CS\sangu\obj\Debug\net8.0\sangu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giorg\OneDrive\Desktop\Coding\CS\sangu\obj\Debug\net8.0\sangu.AssemblyInfoInputs.cache
+C:\Users\giorg\OneDrive\Desktop\Coding\CS\sangu\obj\Debug\net8.0\sangu.AssemblyInfo.cs
+C:\Users\giorg\OneDrive\Desktop\Coding\CS\sangu\obj\Debug\net8.0\sangu.csproj.CoreCompileInputs.cache
+C:\Users\giorg\OneDrive\Desktop\Coding\CS\sangu\obj\Debug\net8.0\sangu.dll
+C:\Users\giorg\OneDrive\Desktop\Coding\CS\sangu\obj\Debug\net8.0\refint\sangu.dll
+C:\Users\giorg\OneDrive\Desktop\Coding\CS\sangu\obj\Debug\net8.0\sangu.pdb
+C:\Users\giorg\OneDrive\Desktop\Coding\CS\sangu\obj\Debug\net8.0\sangu.genruntimeconfig.cache
+C:\Users\giorg\OneDrive\Desktop\Coding\CS\sangu\obj\Debug\net8.0\ref\sangu.dll
