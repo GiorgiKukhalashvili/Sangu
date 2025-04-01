@@ -1,6 +1,11 @@
-# ignore folders
-*bin/
-*object/
+# Ignore build folders
+bin/
+obj/
 
-# ignore csproj files
+# Ignore Visual Studio files
 *.csproj
+*.suo
+*.user
+*.cache
+*.log
+*.vs/
