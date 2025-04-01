@@ -1,6 +1,6 @@
 # ignore folders
-bin/
-object/
+*bin/
+*object/
 
 # ignore csproj files
-.csproj
+*.csproj
