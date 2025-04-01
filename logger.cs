@@ -1,7 +1,7 @@
 using System;
 
 public class Logger {
-    public static void log(string[] args) {
+    public static void log() {
         Console.WriteLine("Text Input: ");
         string text = Console.ReadLine() ?? "0";
 
