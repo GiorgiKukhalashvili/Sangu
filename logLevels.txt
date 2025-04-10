@@ -1,0 +1,5 @@
+DEBUG: Fixed minor typo in documentation
+INFO: Added new feature to track user sessions
+WARN: Deprecated old API endpoints
+ERROR: Fixed crash when loading large files
+FATAL: Database corruption detected, needs immediate fix
