@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_logger" kind="class" language="C#" prot="public">
+    <compoundname>Logger</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_logger_1a1b8f099b17ab2d1efe8005417084c8d4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Logger.log</definition>
+        <argsstring>()</argsstring>
+        <name>log</name>
+        <qualifiedname>Logger.log</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Text input.</para>
+<para>While loop checks if user input is empty and returns another text input if true.</para>
+<para>Console output.</para>
+        </inbodydescription>
+        <location file="logger.cs" line="9" column="24" bodyfile="logger.cs" bodystart="9" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="logger.cs" line="8" column="7" bodyfile="logger.cs" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_logger_1a1b8f099b17ab2d1efe8005417084c8d4" prot="public" virt="non-virtual"><scope>Logger</scope><name>log</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
