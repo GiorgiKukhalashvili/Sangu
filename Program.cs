@@ -30,13 +30,21 @@ public class Program {
         Console.WriteLine(userInput);
 
         /// Logging
-        File.AppendAllText(path, trace + Environment.NewLine);
-        File.AppendAllText(path, logText + Environment.NewLine);
+        File.AppendAllText(path, trace + Environment.NewLine); /// Trace
+
+        File.AppendAllText(path, logText + Environment.NewLine); /// Log input
+
+        /// Debug messege checks if input is empty
         if(String.IsNullOrEmpty(userInput)) {
+            Console.WriteLine("- input is empty");
             File.AppendAllText(path, debug + Environment.NewLine);
         }
-        File.AppendAllText(path, info + Environment.NewLine);
+
+        File.AppendAllText(path, info + Environment.NewLine); /// Info
+
+        /// error messege
         if(errorBool) {
+            Console.WriteLine("- error");
             File.AppendAllText(path, error + Environment.NewLine);
         }
         

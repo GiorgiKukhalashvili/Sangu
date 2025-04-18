@@ -30,3 +30,10 @@ hello
 - user input: error
 - info: author - Giorgi Kukhalashvili
 - error: 
+- user action: input
+- user input: hi
+- info: author - Giorgi Kukhalashvili
+- user action: input
+- user input: 
+- debug: user input is empty
+- info: author - Giorgi Kukhalashvili
