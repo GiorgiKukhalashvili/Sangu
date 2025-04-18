@@ -1,2 +1,32 @@
-- added code documentation
-- changed branch name
+- user action: input
+- userInput: hello
+- user action: input
+- user input: hello
+- user action: input
+hello
+- user action: input
+- user input: hello
+- user action: input
+- user input: - user input: hi
+- user action: input
+- user input: hi
+- user action: input
+- user input: 
+- debug: user input is empty
+- user action: input
+- user input: hello
+- info: author - Giorgi Kukhalashvili
+- user action: input
+- user input: hi
+- info: author - Giorgi Kukhalashvili
+- user action: input
+- user input: hi
+- info: author - Giorgi Kukhalashvili
+- error: 
+- user action: input
+- user input: hi
+- info: author - Giorgi Kukhalashvili
+- user action: input
+- user input: error
+- info: author - Giorgi Kukhalashvili
+- error: 

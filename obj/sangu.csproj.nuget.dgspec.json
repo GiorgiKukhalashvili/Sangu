@@ -1,34 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\CS\\sangu\\sangu.csproj": {}
+    "/home/kuxala/Documents/Coding/CS/sangu/sangu.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\CS\\sangu\\sangu.csproj": {
+    "/home/kuxala/Documents/Coding/CS/sangu/sangu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\CS\\sangu\\sangu.csproj",
+        "projectUniqueName": "/home/kuxala/Documents/Coding/CS/sangu/sangu.csproj",
         "projectName": "sangu",
-        "projectPath": "D:\\Coding\\CS\\sangu\\sangu.csproj",
-        "packagesPath": "C:\\Users\\giorg\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\CS\\sangu\\obj\\",
+        "projectPath": "/home/kuxala/Documents/Coding/CS/sangu/sangu.csproj",
+        "packagesPath": "/home/kuxala/.nuget/packages/",
+        "outputPath": "/home/kuxala/Documents/Coding/CS/sangu/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Users\\giorg\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\giorg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Users\\giorg\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config"
+          "/home/kuxala/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
+          "/usr/lib64/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -41,11 +38,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -62,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
