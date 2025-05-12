@@ -1,14 +1,11 @@
-﻿/// This is a logger program.
-/// This program takes an input and returns a log if input isn't empty.
-///
-/// @author Giorgi Kukhalashvili
+﻿/*  This is a logger program.
+    This program takes an input and returns a log if input isn't empty.
 
-using System;
-using System.IO;
+    @author Giorgi Kukhalashvili */
 
 public class Program {
     public static void Main(string[] args) {
-        /// Variables for main function
+        // Variables for main function
         string userInput = Logger.logInput();
         string trace = Logger.logTrace();
         string debug = Logger.logDebug();
@@ -20,29 +17,29 @@ public class Program {
 
         bool errorBool = false;
 
-        /// Error exception
+        // Error exception
         if(userInput == "error") {
             errorBool = true;
         }
 
-        /// Console output
+        // Console output
         Console.WriteLine("- user output: ");
         Console.WriteLine(userInput);
 
-        /// Logging
-        File.AppendAllText(path, trace + Environment.NewLine); /// Trace
+        // Logging
+        File.AppendAllText(path, trace + Environment.NewLine); // Trace
 
-        File.AppendAllText(path, logText + Environment.NewLine); /// Log input
+        File.AppendAllText(path, logText + Environment.NewLine); // Log input
 
-        /// Debug messege checks if input is empty
+        // Debug messege checks if input is empty
         if(String.IsNullOrEmpty(userInput)) {
             Console.WriteLine("- input is empty");
             File.AppendAllText(path, debug + Environment.NewLine);
         }
 
-        File.AppendAllText(path, info + Environment.NewLine); /// Info
+        File.AppendAllText(path, info + Environment.NewLine); // Info
 
-        /// error messege
+        // error messege
         if(errorBool) {
             Console.WriteLine("- error");
             File.AppendAllText(path, error + Environment.NewLine);

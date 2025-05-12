@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kuxala/Documents/Coding/CS/sangu/sangu.csproj",
+      "projectUniqueName": "/home/kuxala/Coding/CS/sangu/sangu.csproj",
       "projectName": "sangu",
-      "projectPath": "/home/kuxala/Documents/Coding/CS/sangu/sangu.csproj",
+      "projectPath": "/home/kuxala/Coding/CS/sangu/sangu.csproj",
       "packagesPath": "/home/kuxala/.nuget/packages/",
-      "outputPath": "/home/kuxala/Documents/Coding/CS/sangu/obj/",
+      "outputPath": "/home/kuxala/Coding/CS/sangu/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/kuxala/.nuget/NuGet/NuGet.Config"
@@ -26,7 +26,6 @@
         "net9.0"
       ],
       "sources": {
-        "/usr/lib64/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,12 +60,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.4, 9.0.4]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/var/run/host/usr/share/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
