@@ -1,7 +1,5 @@
-using System;
-
 public class Logger {
-    /// Logs user input
+    // Logs user input
     public static string logInput() {
         Console.WriteLine("- user input: ");
         string text = Console.ReadLine() ?? "0";
@@ -9,7 +7,7 @@ public class Logger {
         return text;
     }
 
-    /// Logs trace
+    // Logs trace
     public static string logTrace() {
         string userAction = "- user action: ";
         string userActionType1 = "input";
@@ -17,7 +15,7 @@ public class Logger {
         return userAction + userActionType1;
     }
 
-    /// Logs debug
+    // Logs debug
     public static string logDebug() {
         string debugLog = "- debug: ";
         string emptyInput = "user input is empty";
@@ -25,7 +23,7 @@ public class Logger {
         return debugLog + emptyInput;
     }
 
-    /// Logs info
+    // Logs info
     public static string logInfo() {
         string infoLog = "- info: ";
         string authorInfo = "author - Giorgi Kukhalashvili";
@@ -33,7 +31,7 @@ public class Logger {
         return infoLog + authorInfo;
     }
 
-    /// Logs error
+    // Logs error
     public static string logError() {
         string errorLog = "- error: ";
         

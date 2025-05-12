@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7mXAkDXj4hM=",
+  "dgSpecHash": "snjTIOy3FQQ=",
   "success": true,
-  "projectFilePath": "/home/kuxala/Documents/Coding/CS/sangu/sangu.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/kuxala/Coding/CS/sangu/sangu.csproj",
+  "expectedPackageFiles": [
+    "/home/kuxala/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.4/microsoft.aspnetcore.app.ref.9.0.4.nupkg.sha512"
+  ],
   "logs": []
 }
