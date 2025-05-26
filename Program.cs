@@ -5,7 +5,7 @@
 
 public class Program {
     public static void Main(string[] args) {
-        // Variables for main function
+        // Variables for the main function
         string userInput = Logger.logInput();
         string trace = Logger.logTrace();
         string debug = Logger.logDebug();
@@ -31,7 +31,7 @@ public class Program {
 
         File.AppendAllText(path, logText + Environment.NewLine); // Log input
 
-        // Debug messege checks if input is empty
+        // Debug message checks if input is empty
         if(String.IsNullOrEmpty(userInput)) {
             Console.WriteLine("- input is empty");
             File.AppendAllText(path, debug + Environment.NewLine);
@@ -39,7 +39,7 @@ public class Program {
 
         File.AppendAllText(path, info + Environment.NewLine); // Info
 
-        // error messege
+        // error message
         if(errorBool) {
             Console.WriteLine("- error");
             File.AppendAllText(path, error + Environment.NewLine);

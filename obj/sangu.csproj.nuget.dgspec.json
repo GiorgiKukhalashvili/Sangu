@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/kuxala/Coding/CS/sangu/sangu.csproj": {}
+    "/home/kuxala/Coding/CS/sangu.csproj": {}
   },
   "projects": {
-    "/home/kuxala/Coding/CS/sangu/sangu.csproj": {
+    "/home/kuxala/Coding/CS/sangu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kuxala/Coding/CS/sangu/sangu.csproj",
+        "projectUniqueName": "/home/kuxala/Coding/CS/sangu.csproj",
         "projectName": "sangu",
-        "projectPath": "/home/kuxala/Coding/CS/sangu/sangu.csproj",
+        "projectPath": "/home/kuxala/Coding/CS/sangu.csproj",
         "packagesPath": "/home/kuxala/.nuget/packages/",
-        "outputPath": "/home/kuxala/Coding/CS/sangu/obj/",
+        "outputPath": "/home/kuxala/Coding/CS/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kuxala/.nuget/NuGet/NuGet.Config"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/var/run/host/usr/share/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
