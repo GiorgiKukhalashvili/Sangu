@@ -76,3 +76,6 @@ hello
 - user action: input
 - user input: hello
 - info: author - Giorgi Kukhalashvili
+- user action: input
+- user input: hi
+- info: author - Giorgi Kukhalashvili
